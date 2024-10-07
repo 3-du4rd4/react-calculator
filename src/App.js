@@ -1,5 +1,11 @@
-function App() {
-  return <div className="App">Olá</div>
+import { Container, Content } from './styles'
+
+const App = () => {
+  return (
+    <Container>
+      <Content>Olá</Content>
+    </Container>
+  )
 }
 
 export default App
